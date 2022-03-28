@@ -1,0 +1,57 @@
+body{
+    background-color: rgba(22, 22, 22, 0.76);
+}
+
+button{
+    background-color: rgb(202, 252, 153);
+    border-radius: 5px;
+    size: 30px;
+}
+
+h2{
+    flood-color: rgb(247, 234, 125);
+    font-family: fantasy;
+}
+h3{
+    flood-color: rgb(12, 114, 12);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    font-style: oblique;
+}
+p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkgreen;
+}
+.playerAlbum{
+    float: inline-start;
+}
+.Cancion1{
+    float: none;
+    font: size 35px; ;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.playerAlbum{
+    background-color: rgb(147, 175, 100);
+    float: left;
+    margin: 5%;
+    padding: 7%;
+    position: relative;
+    z-index: 99;
+    
+}
+.Cancion1{
+    float: left;
+    background-origin: content-box;
+
+}
+.Cancion1:hover{
+    transform: translate(left);
+}
+#particles{
+    height:100vh ;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
